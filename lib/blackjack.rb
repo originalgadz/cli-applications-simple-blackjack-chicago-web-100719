@@ -58,6 +58,7 @@ def runner
   until card_total2 != card_total
     card_total2 = hit? (card_total)
   end
+  while card_total
   display_card_total
 end
     
